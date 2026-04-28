@@ -1,0 +1,11 @@
+{
+  "name": "moodlejs",
+  "version": "1.0.0",
+  "description": "Custom Moodle API wrapper",
+  "main": "client.js",
+  "author": "You",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.15.2"
+  }
+}
