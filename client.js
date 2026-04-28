@@ -3,6 +3,8 @@ const Wrapper = require("./wrapper");
 const userDomain = require("./domains/user");
 const assignmentDomain = require("./domains/assignments");
 const courseDomain = require("./domains/courses");
+const calendarDomain = require("./domains/calendar");
+
 
 class MoodleJS extends Wrapper {
     constructor(baseURL, token) {
@@ -11,6 +13,7 @@ class MoodleJS extends Wrapper {
         this.user = userDomain(this);
         this.assignments = assignmentDomain(this);
         this.courses = courseDomain(this);
+        this.calendar = calendarDomain(this);
     }
 }
 
